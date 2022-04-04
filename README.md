@@ -1,3 +1,12 @@
+```rust
+##
+#  @phiresky sqlite code
+##
+alias cbsql='cargo build --features=sqlite'
+alias crsql='cargo run --features=sqlite'
+alias ctsql='cargo nextest run --features=sqlite history::'
+```
+
 # A readline replacement written in Rust
 
 ![GitHub](https://img.shields.io/github/license/nushell/reedline)
