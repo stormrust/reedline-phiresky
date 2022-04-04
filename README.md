@@ -1,3 +1,6 @@
+
+[Code from this PR](https://github.com/nushell/reedline/pull/376)
+
 ```rust
 ##
 #  @phiresky sqlite code
