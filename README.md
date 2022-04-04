@@ -4,7 +4,8 @@
 ##
 alias cbsql='cargo build --features=sqlite'
 alias crsql='cargo run --features=sqlite'
-alias ctsql='cargo nextest run --features=sqlite history::'
+alias ctsql='cargo test --features=sqlite'
+alias ctsqln='cargo nextest run --features=sqlite history::'
 ```
 
 # A readline replacement written in Rust
