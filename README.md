@@ -11,6 +11,12 @@ alias ctsql='cargo test --features=sqlite'
 alias ctsqln='cargo nextest run --features=sqlite history::'
 ```
 
+### Notes on the phiresky PR
+
+* added rusqlite, and serde_json to Cargo.toml
+* new file -> src/history/sqlite_backed.rs
+* change file -> src/main.rs
+
 # A readline replacement written in Rust
 
 ![GitHub](https://img.shields.io/github/license/nushell/reedline)
